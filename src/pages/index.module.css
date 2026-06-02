@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: radial-gradient(circle at top, #1b1f3a, #0b0f19);
+}
+
+.hero {
+  text-align: center;
+  max-width: 700px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #aab0c0;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.primaryButton {
+  padding: 12px 20px;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.secondaryButton {
+  padding: 12px 20px;
+  border: 1px solid #3a3f55;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
